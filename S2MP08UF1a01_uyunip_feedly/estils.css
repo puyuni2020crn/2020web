@@ -1,3 +1,6 @@
+
+@media screen and (min-width: 1280px)
+{
 body{
   margin: 0;
   font-family: verdana;
@@ -12,6 +15,7 @@ background-position: 400px;
 h1, p{
   width: 350px;
   padding: 25px;
+
 }
 h1{
   margin: : 0;
@@ -122,4 +126,147 @@ img{
 }
 .fosca{
   background-color: #333
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px)
+{
+  body{
+    margin: 0;
+    font-family: verdana;
+  }
+
+  div{
+  height: 50px;
+  background-repeat:no-repeat;
+  background-position: 400px;
+  }
+
+  h1, p{
+    width: 350px;
+    padding: 25px;
+    margin:auto;
+
+  }
+  h1{
+    margin: :auto;
+  }
+  p{
+   padding: 0 25px;
+   margin: auto;
+  }
+  li{
+    display: inline-block;
+    background-color: silver;
+    height: 30px;
+    margin: 0 ;
+    line-height: 30px;
+    padding: 5px;
+
+  }
+  li:hover {
+    background-color: yellowgreen;
+  }
+  a{
+    text-decoration: none;
+  }
+  #primera{
+    height: 150px;
+  }
+  #segunda{
+  height: 550px;
+
+  }
+
+  #tercera{
+    height: 641px;
+
+
+  }
+
+  #cuarta{
+    height: 500px;
+
+  }
+
+  #quinta{
+    height: 550px;
+
+  }
+
+  #sexta{
+    height: 550px;
+
+  }
+
+  #septima{
+    height: 643px;
+
+
+  }
+
+  #octava{
+    height: 200px;
+    text-align: center
+
+  }
+
+  #boton{
+
+
+    height: 80px;
+    width: 80px;
+
+
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+
+    border: solid 3px black;
+    border-radius: 100px;
+    box-shadow: 5px 5px 25px black;
+
+    background-color: silver;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    background: url(img/sources.png);
+    background-position: -220px -6px;
+    text-decoration-color: pink;
+
+  }
+
+
+  .blanca{
+    background-color: #FFF
+  }
+  .verde{
+    background-color: #6C3
+  }
+  .clara{
+    background-color: #EEECEE
+  }
+  .fosca{
+    background-color: #333
+  }
 }
