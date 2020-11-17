@@ -170,10 +170,12 @@ img{
   }
   h1{
     margin: :auto;
+    font-size: 24pt;
   }
   p{
    padding: 0 25px;
    margin: auto;
+   font-size: 12pt;
   }
   li{
     display: inline-block;
