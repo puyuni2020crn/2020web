@@ -110,6 +110,31 @@ background-image: url(img/img-hero-full-list.png);
 
 }
 
+
+#boton2{
+
+
+  height: 80px;
+  width: 80px;
+
+
+  position: fixed;
+  bottom: 50px;
+  left: 100px;
+
+  border: solid 3px black;
+  border-radius: 100px;
+  box-shadow: 5px 5px 25px black;
+
+  background-color: gold;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  background-position: -220px -6px;
+  text-decoration-color: pink;
+
+}
+
 img{
   padding: 25px;
 
