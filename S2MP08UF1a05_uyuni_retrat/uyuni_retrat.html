@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+<style media="screen">
+
+  body{
+    width: 100vw;
+    height: 100vh;
+    background: cyan;
+    justify-content:center;
+    align-items: center;
+    background: cyan;
+  }
+
+  .cap{
+    position: absolute;
+    width: 360px;
+    height:420px;
+    background:cyan;
+
+  }
+
+  .pelo{
+    position: absolute;
+    width: 360px;
+    height: 80px;
+    background: black;
+    border-radius: 130px 130px 0 130px;
+  }
+
+
+
+
+  .mechon{
+    position: absolute;
+    width: 30px;
+    height: 130px;
+    background: black;
+    border-radius: 130px 130px 0 130px;
+    top:-190px;
+    left:-30px
+  }
+  .mechon2{
+    position: absolute;
+    width: 30px;
+    height: 130px;
+    color: red;
+  }
+
+
+
+  .face{
+  position: absolute;
+  width: 290px;
+  height: 140px;
+  background: #E2B090;
+  top: 80px;
+  right: 0;
+
+  }
+
+  .ojo-izq{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius:0 0 50% 50%;
+  top: 46%;
+  right: 25%;
+  }
+
+
+  .ojo-izq:hover{
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  background: black;
+  border-radius:0 0 50% 50%;
+  top: 56%;
+  right: 25%;
+  }
+
+  .ojo-der{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius:0 0 50% 50% ;
+  top: 46%;
+  left: 25%;
+  }
+
+
+
+
+
+
+  .ojo-izq::before{
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 15px;
+  background: black;
+  border-radius: 6px;
+  bottom: 150%;
+
+
+  }
+
+  .ojo-der::before{
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 15px;
+  background: black;
+  border-radius: 6px;
+  bottom: 150%;
+  left: -40%;
+
+  }
+
+  .nas{
+  position: absolute;
+  width: 35px;
+  height: 80px;
+  background: #F1A27B;
+  border-radius: 10px;
+  top: 90%;
+  left:50%;
+  transform: translate(-50%,-10%);
+  z-index: 3;
+  }
+
+  .oreja-izq{
+  position: absolute;
+  width: 18px;
+  height: 65px;
+  background: #F1A27B;
+  top: 88px;
+  left:-18px;
+  border-radius: 15px 0 0 15px;
+  }
+
+  .oreja-der{
+  position: absolute;
+  width: 18px;
+  height: 65px;
+  background: #F1A27B;
+  top: 88px;
+  right:-18px;
+  border-radius: 0 15px 15px 0;
+  }
+
+  .boca{
+
+    position: absolute;
+    width: 290px;
+    height: 200px;
+    background: #E2B090;
+    top: 220px;
+    right: 0;
+    border-radius: 0 0 185px 185px;
+  }
+
+  .boquita{
+
+  position: absolute;
+  border: 5px solid #DF9F9D;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  top: -80%;
+  left: -20%;
+  transform: translate(50%, 50%);
+  }
+
+
+
+
+</style>
+
+<body>
+        <div class="cap">
+        <div class="pelo"></div>
+
+        <div class="face">
+          <div class="ojo-izq"></div>
+          <div class="ojo-der"></div>
+          <div class="nas"></div>
+          <div class="oreja-izq"></div>
+          <div class="oreja-der"></div>
+        </div>
+        <div class="boca">
+          <div class="boquita"></div>
+          <div class="mechon"></div>
+          <div class="mechon2"></div>
+      </div>
+    </div>
+</body>
+
+</html>
